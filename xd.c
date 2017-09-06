@@ -16,12 +16,10 @@ int main(){
 	printf("Ingrese m2: ");
 	scanf("%f", &m2);
 	t=sin(a1*3.14159/180);
-	printf("Dato curioso: Tu seno es: %f (tengo que transformarlo para poder operar)\n",t);
 	x= m1*t;
 	x = x/m2;
-	printf ("senoXm1/m2= %f\n",x);
 	y = asin(x)*180/pi ;
-	printf("senoinverso= %f",y);
+	printf("resultado = %f",y);
 
 
 }
